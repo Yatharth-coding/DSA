@@ -1,0 +1,27 @@
+1. If 2 recursion call are made at once then first recursion call which is written will be executed first fully
+2. `return f(n-1) + f(n-2)` here when  when f(n-1)  givers the answer then f(n-2) will go for the calculation of f(n-2)
+3. printing subsequence or combination question think of recursion
+4. pick & non pick in an array
+5. go by while method for finding a^b instead of using Math.pow(a,b) as it lose precision for large  exponent 
+6. how to copy an array into new array
+    
+    ```java
+    Using Arrays.copyOf():
+    
+    import java.util.Arrays;
+    
+    int[] arr = {1, 2, 3, 4};
+    
+    int[] copy = Arrays.copyOf(arr, arr.length);
+    
+    The second argument is the new array length; using arr.length copies the whole array.
+    ```
+    
+7. While passing to the function don’t pass like func(ls.add(2)) because it will pass boolean add before passing
+8. Graph coloring to be done after doing graph
+9. if you want to return no’s in array form without creating and array then do `return new int[ ]{a,b}`
+10. Addition of strings takes time depending upon their length
+11. good question - 29
+12. Not able to find how to find the majority element in hash map
+13. `Arrays.fill(arr,-1 ) ;` 
+14. `int mod = (int)1e9 + 7 ;`
