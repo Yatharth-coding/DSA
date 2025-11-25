@@ -1,1 +1,10 @@
-1. when you are taking middle element then take as mid = low + (high-low)/2 it prevent the overflow error
+0. when you are taking middle element then take as mid = low + (high-low)/2 it prevent the overflow error
+1. Whenever we have to search then think of binary search even if it is not sorted too.
+2. learn the code of upper and lower bound
+3. Whenever the question resolver around min and max then use Linear Search then optimize it to Binary Search
+4. figlet iok
+5. use Map ( HashMap ) Learn about it 
+6. `s.toCharArray( )`  convert string to char array
+7. Stack Space = space complexity
+8. Learn about how to finding time and space complexity
+9. Code Studio - Friday                and            Leetcode -Biweekly
